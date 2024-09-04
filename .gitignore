@@ -1,0 +1,20 @@
+# Ignore the intermediate, binaries, and saved folders
+Intermediate/
+Binaries/
+Saved/
+
+# Ignore the Derived Data Cache folder
+DerivedDataCache/
+
+# Ignore config files that aren't user-specific
+*.ini
+!Config/Default*.ini
+*.log
+*.tmp
+
+# Ignore Build files
+*.VC.db
+*.VC.opendb
+
+# Ignore user-specific folders
+.vscode/
